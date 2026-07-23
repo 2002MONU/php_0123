@@ -7,7 +7,7 @@ $count = count($array);
 for ($i = 0; $i < $count; $i++) {
     for ($j = $i + 1; $j < $count; $j++) {
         if ($array[$j] == $array[$i]) {
-            print_r($array[$i]);
+           echo $array[$i] . " ";
             break;
         }
     }
