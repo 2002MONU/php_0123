@@ -13,8 +13,8 @@
      $("#loginForm").submit(function(e){
         e.preveDefault();
 
-        let email  = $("#email"),val().trim();
-        let password  = $("#password"),val().trim();
+        let email  = $("#email").val().trim();
+        let password  = $("#password").val().trim();
 
         let isValid = false;
 
